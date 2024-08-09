@@ -1,0 +1,64 @@
+swiper-container{
+  width: 100%;
+  height: 100%;
+  
+  --swiper-pagination-bullet-inactive-color: var(--ion-color-step-200,#cccccc);
+  --swiper-pagination-color: var(--ion-color-primary, #3880ff);
+}
+
+swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+ion-content{
+  --background:rgb(248, 248, 248);
+}
+
+.slide-container {
+  position: relative;
+}
+
+.slide-imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--ion-border-radius);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  border-radius: var(--ion-border-radius);
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ion-title{
+  --color:rgb(249, 249, 249);
+  --ion-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
+
